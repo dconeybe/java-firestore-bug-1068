@@ -1,3 +1,7 @@
+This small Firestore web app runs a limit query followed by a limit-to-last query.
+It was used to determine the "expected results" of this bug:
+https://github.com/googleapis/java-firestore/issues/1068
+
 ## Usage
 
 1. Edit `firebase_config.ts` to fill out your `apiKey` and `projectId`
